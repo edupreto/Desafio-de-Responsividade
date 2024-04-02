@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: "OpenSans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src:
+    url('/assets/fonts/OpenSans-Regular.ttf');    
+}
+
+@font-face {
+    font-family: 'OpenSansExtraBold';
+    src:    
+    url('/assets/fonts/OpenSans-ExtraBold.ttf');    
+}
+
+@font-face {
+    font-family: 'LuckiestGuy';
+    src:   
+    url('/assets/fonts/LuckiestGuy-Regular.ttf');    
+}
+
+h1 {
+    font-family: LuckiestGuy;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: OpenSansExtraBold;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {    
+    font-size: 1rem;
+}
+
+h1, h2, p, img {
+    padding-bottom: 1rem;
+}
+
+button {    
+    border: none;
+    border-radius: 50px;
+    padding: 1rem;
+    margin: .5rem;    
+}
+
+@media screen and (min-width: 720px) {
+    .headerContent {
+        align-items: center;
+    }
+
+    .header p {
+        max-width: 600px;
+    }
+
+    .header .buttonContent {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .section:nth-child(odd)  .container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;       
+        max-width: 800px;
+        height: auto;        
+    }
+
+    .section:nth-child(even) .container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;       
+        max-width: 800px;
+        height: auto;        
+    }
+
+
+
+}
+
+
+
+

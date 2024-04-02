@@ -1,0 +1,10 @@
+
+.footer {
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #23272A;
+    min-height: 140px;
+}
+

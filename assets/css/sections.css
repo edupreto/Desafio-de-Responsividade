@@ -1,0 +1,25 @@
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1.5rem;    
+}
+
+section:nth-child(odd){ /*impares com fundo gray*/
+    background-color:#F6F6F6;
+  }
+
+.section .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section .tecContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    height: auto;
+}
+
